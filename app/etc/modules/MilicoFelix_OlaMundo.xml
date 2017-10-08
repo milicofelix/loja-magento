@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <MilicoDeveloper_OlaMundo>
+            <active>true</active>
+            <codePool>local</codePool>
+        </MilicoDeveloper_OlaMundo>
+    </modules>
+</config>

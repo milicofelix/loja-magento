@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>                           /**** declaração do Módulo ****/
+        <MilicoDeveloper_OlaMundo>
+            <version>1.0.0.0</version>
+        </MilicoDeveloper_OlaMundo>
+    </modules>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <MilicoDeveloper_OlaMundo>
+                    <files>
+                        <default>MilicoDeveloper_OlaMundo.csv</default>
+                    </files>
+                </MilicoDeveloper_OlaMundo>
+            </modules>
+        </translate>
+    </adminhtml>
+
+    <frontend>
+        <routers>
+            <milicodeceloper_olamundo>
+                <use>standard</use>
+                <args>
+                    <module>MilicoDeveloper_OlaMundo</module>
+                    <frontName>olamundo</frontName>
+                </args>
+            </milicodeceloper_olamundo>
+        </routers>
+        <layout>
+            <updates>
+                <milicodeveloper_olamundo>
+                    <file>olamundo.xml</file>
+                </milicodeveloper_olamundo>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <MilicoDeveloper_OlaMundo>
+                    <files>
+                        <default>MilicoDeveloper_OlaMundo.csv</default>
+                    </files>
+                </MilicoDeveloper_OlaMundo>
+            </modules>
+        </translate>
+    </frontend>
+    <global>
+        <models>
+            <MilicoDevelper_OlaMundo>
+                <class>MilicoDeveloper_OlaMundo_Model</class>
+            </MilicoDevelper_OlaMundo>
+        </models>
+        <blocks>
+            <MilicoDeveloper_OlaMundo>
+                <class>MilicoDeveloper_OlaMundo_Block</class>
+            </MilicoDeveloper_OlaMundo>
+        </blocks>
+        <helpers>
+            <MilicoDeveloper_OlaMundo>
+                <class>MilicoDeveloper_OlaMundo_Helper</class>
+            </MilicoDeveloper_OlaMundo>
+        </helpers>
+        <resources>
+            <MilicoDeveloper_OlaMundo_setup>
+                <setup>
+                    <module>MilicoDeveloper_OlaMundo</module>
+                </setup>
+            </MilicoDeveloper_OlaMundo_setup>
+        </resources>
+    </global>
+</config>

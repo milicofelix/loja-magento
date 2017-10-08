@@ -1,0 +1,7 @@
+{
+    "name": "Push Superate",
+    "short_name": "Push Superate",
+    "display": "standalone",
+    "gcm_sender_id": "709175554622",
+    "gcm_user_visible_only": true
+}
