@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c3e0b5c-95a8-460d-aadf-72e8bb0e49ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/milicodeveloper/OlaMundo/Helper/Data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/milicodeveloper/OlaMundo/etc/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/MilicoFelix_OlaMundo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -303,12 +299,12 @@
       <workItem from="1506307258466" duration="3780000" />
       <workItem from="1506806079293" duration="1239000" />
       <workItem from="1507393343514" duration="4000" />
-      <workItem from="1507469133740" duration="3913000" />
+      <workItem from="1507469133740" duration="7183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21731000" />
+    <option name="totallyTimeSpent" value="25001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1919" height="1056" extended-state="6" />
