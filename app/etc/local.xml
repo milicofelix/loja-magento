@@ -40,10 +40,10 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[database]]></host>
-                    <username><![CDATA[magento]]></username>
-                    <password><![CDATA[magento]]></password>
-                    <dbname><![CDATA[magento]]></dbname>
+                    <host><![CDATA[mysql.milicodeveloper.com.br]]></host>
+                    <username><![CDATA[milicodevelope]]></username>
+                    <password><![CDATA[morango123]]></password>
+                    <dbname><![CDATA[milicodevelope]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
