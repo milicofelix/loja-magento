@@ -79,4 +79,6 @@ $mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : ''
 /* Run store or run website */
 $mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'store';
 
+exit('Testando 1 2 3');
+
 Mage::run($mageRunCode, $mageRunType);
